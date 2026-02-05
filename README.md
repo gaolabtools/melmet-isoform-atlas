@@ -1,4 +1,4 @@
-# Single Cell Isoform Atlas of Melanoma Brain and Extracranial Metastasis
+# Single Cell Isoform Atlas of Melanoma Brain Metastasis
 
 In this study (Lu et al., 2026), we applied a long-read single nuclear RNA sequencing method, called  snNanoRNAseq (Shiau et al., 2023, Nat Commons) onto matched fresh-frozen brain metastasis (BM) and extracranial metastasis (ECM) tumors of melanoma patients to assess cell type-specific isoforms, their usage dynamics and impacts on tumor cell plasticity. BM samples were compared with ECM tumors from diverse extracranial sites to investigate the convergent isoform remodeling patterns in the brain.  
 
