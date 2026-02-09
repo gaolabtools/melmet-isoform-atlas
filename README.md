@@ -7,7 +7,10 @@ The snNanoRNAseq data allows for co-profiling of gene expression programs and is
 <img width="852" height="191" alt="Screen Shot 2026-02-05 at 1 58 16 PM" src="https://github.com/user-attachments/assets/da3af96d-107c-44f0-a8f0-be9e69c2eb9e" />
 
 ## Online webportal for data navigation
-An online webportal [Single Cell Isoform Atlas of Melanoma Metastasis](https://gaolabtools.shinyapps.io/melmet-isoform-portal/) was created for  the navigation of cell type-specific isoforms in both ECM and BM tumors of melanoma patients. The summarized isoform-level matraces and isoform annotation files can be downloaded from this portal. All raw and processed data can be found in GEO through GSEXXX.
+An online webportal [Single Cell Isoform Atlas of Melanoma Metastasis](https://gaolabtools.shinyapps.io/melmet-isoform-portal/) was created for  the navigation of cell type-specific isoforms in both ECM and BM tumors of melanoma patients. The summarized isoform-level matraces and isoform annotation files can be downloaded from this portal. All raw and processed data can be found in GEO through GSE318781.
+
+## Citation
+Lu et al., 2026
 
 
 
