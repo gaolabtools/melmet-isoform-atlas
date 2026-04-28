@@ -51,7 +51,6 @@ ANNOVAR_XREF="/home/tools/annovar/hg38db/omim/gene_xref.txt"
 
 
 
-
 # Number of cores used for parallel processing
 ncores=20
 
