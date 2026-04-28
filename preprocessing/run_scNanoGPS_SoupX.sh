@@ -6,7 +6,7 @@
 #
 # Purpose:
 # This script generates gene expression profiles required as input for SoupX,
-# a tool used to estimate and remove ambient RNA contamination.
+# a tool used to estimate and remove ambient RNA contamination in single cell data.
 #
 # ================================
 
