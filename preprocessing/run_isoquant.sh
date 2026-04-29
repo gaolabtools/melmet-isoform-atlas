@@ -13,6 +13,7 @@
 conda activate /home/software/miniconda3/envs/isoquant
 
 # Run isoquant pipeline
+# Note: For bulk RNA-seq data, remove the --read_group option
 isoquant.py \
 --data_type nanopore \
 --bam_list bam_file_list.txt \
