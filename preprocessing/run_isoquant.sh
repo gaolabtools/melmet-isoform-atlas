@@ -5,7 +5,7 @@
 # Software: IsoQuant v3.3.1
 
 # Purpose:
-# Detect novel transcript isoforms and quantify isoform expression in individual cells 
+# Detect novel transcript isoforms and quantify isoform expression in individual cells/spots 
 # ================================
 
 
