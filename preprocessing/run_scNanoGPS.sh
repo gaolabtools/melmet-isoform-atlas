@@ -18,7 +18,7 @@
 P_DIR="/home/tools/scNanoGPS_v0.14/"
 
 # Directory containing raw Nanopore FASTQ files
-FASTQ="/data/nanopore/fastq_pass/"
+FASTQ="/data/nanopore/sample/fastq_pass/"
 
 # Human reference genome FASTA file, GRCh38
 REF_GENOME="/home/genome/refdata-cellranger-arc-GRCh38-2020-A-2.0.0/fasta/genome.fa"
