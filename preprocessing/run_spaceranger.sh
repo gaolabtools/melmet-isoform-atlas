@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # ================================
-# Nanopore spatial RNA-seq data processing
+# Nanopore Visium RNA-seq data processing 
 # Software: Percula v0.0.5, Space Ranger v4.0.1
 #
 # Purpose:
