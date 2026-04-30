@@ -131,7 +131,7 @@ two_dominant_tx<-rbind(dominant_tx,second_dominant_tx)
 
 
 #############################
-# Step 3: Calculate Shannon index per gene per cell type
+# Step 3: Calculate Shannon index per gene per group
 #############################
 
 #shannon index
