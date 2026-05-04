@@ -1,4 +1,4 @@
-#Differential Isoform Usage (DIU) 
+#Differential Isoform Usage (DIU) analysis
 #Purpose:
   #   Compare isoform usage between two conditions (e.g., BM vs ECM, between different cell types, between different cell states)
 #Input requirements:
