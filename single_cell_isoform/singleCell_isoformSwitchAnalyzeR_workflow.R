@@ -188,8 +188,41 @@ isoSwitchList_part2 <- isoformSwitchAnalysisPart2(
     'signal_peptide_identified'
   ),
 )
+
+
+# ----------------------------
+# Analyze predicted consequences of isoform switches
+# ----------------------------
+isoSwitchList_part2 <- analyzeSwitchConsequences(isoSwitchList_part2, 
+                                                 onlySigIsoforms = T, 
+                                                 dIFcutoff = 0.1, 
+                                                 consequencesToAnalyze = c(
+                                                   'tss',
+                                                   'tts',
+                                                   'last_exon',
+                                                   'isoform_length',
+                                                   'exon_number',
+                                                   'intron_structure',
+                                                   'ORF_length', 
+                                                   '5_utr_seq_similarity',
+                                                   '5_utr_length', 
+                                                   '3_utr_seq_similarity', 
+                                                   '3_utr_length',
+                                                   'coding_potential',
+                                                   'ORF_seq_similarity',
+                                                   'NMD_status',
+                                                   'domains_identified',
+                                                   'signal_peptide_identified',
+                                                   'sub_cell_location'))
+
 saveRDS(isoSwitchList_part2, file = "isoSwitchList_part2.rds")
 
+pdf("switch_consequences.pdf",width=11,height=7)
+switch_consequences <- extractConsequenceEnrichment(
+  isoSwitchList_part2,dIFcutoff = 0.1,countGenes = F,
+  returnResult = T # if TRUE returns a data.frame with the summary statistics
+)
+dev.off()
 
 # ----------------------------
 # Example transcript structure plot 
